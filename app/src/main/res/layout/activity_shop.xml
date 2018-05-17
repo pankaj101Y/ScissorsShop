@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hp.scissorsshop.UI.ShopActivity"
+    >
+    
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/shopImages">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopImageNo"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/shopImages"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shopImageNo"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:text="Shop"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="center_vertical"
+                        />
+
+                    <TextView
+                        android:id="@+id/shopNameView"
+                        android:layout_width="match_parent"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:gravity="center_vertical"
+                        android:layout_height="48dp" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:text="Address"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/shopAddressView"
+                        android:layout_width="match_parent"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@android:color/black"
+                        android:text="Type"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/shopTypeView"
+                        android:layout_width="match_parent"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:text="For"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/shopSexView"
+                        android:layout_width="match_parent"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="Owner"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/shopOwnerView"
+                        android:layout_width="match_parent"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="8dp" />
+
+</android.support.constraint.ConstraintLayout>

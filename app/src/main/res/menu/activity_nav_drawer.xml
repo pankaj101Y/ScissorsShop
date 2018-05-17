@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/top">
+        <item
+            android:id="@+id/myServices"
+            android:icon="@drawable/ic_room_service"
+            android:title="My Services" />
+        <item
+            android:id="@+id/myPackages"
+            android:icon="@drawable/ic_packages"
+            android:title="My Packages" />
+
+        <item
+            android:id="@+id/myShop"
+            android:icon="@drawable/ic_shop"
+            android:title="My Shop" />
+        <item
+            android:id="@+id/reviews"
+            android:icon="@drawable/ic_review"
+            android:title="Reviews" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/bottom">
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/signOut"
+            android:icon="@drawable/sign_out"
+            android:title="Sign Out">
+        </item>
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ScissorsShop</string>
+    <string name="my_services">My Services</string>
+    <string name="my_packages">My Packages</string>
+    <string name="settings">settings</string>
+    <string name="send_otp">SEND OTP</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="select_country">SELECT COUNTRY</string>
+    <string name="cc">cc.json</string>
+    <string name="cc_array">countryCodes</string>
+    <string name="your_country">Your Country</string>
+    <string name="verify">VERIFY</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp_hint">******</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="registerShop">Register</string>
+    <string name="shop_address">Shop Address</string>
+    <string name="service">Service</string>
+    <string name="service_simple_package">Package</string>
+    <string name="service_home_package">Home Package</string>
+    <string name="price">Price</string>
+    <string name="service_delete_icon">service delete icon</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="pop_menu">pop menu</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sign_up_message">SIGN UP</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="welcome_message">Welcome To Scissors</string>
+    <string name="user_image">userImage</string>
+    <string name="title_activity_shop">ShopActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shop_image">shop image</string>
+    <string name="more_options">more options</string>
+    <string name="take">Take</string>
+    <string name="upload">Upload</string>
+</resources>

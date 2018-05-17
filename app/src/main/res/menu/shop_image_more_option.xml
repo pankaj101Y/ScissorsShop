@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/take"
+        android:id="@+id/takeImage"
+        android:orderInCategory="1" />
+    <item
+        android:title="@string/upload"
+        android:id="@+id/uploadImage"
+        android:orderInCategory="1" />
+
+    <item
+        android:title="@string/delete"
+        android:id="@+id/deleteImage"
+        android:orderInCategory="1" />
+
+</menu>

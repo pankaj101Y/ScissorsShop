@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/edit"
+        android:id="@+id/editOption"
+        android:orderInCategory="1" />
+    <item
+        android:id="@+id/deleteOption"
+        android:title="@string/delete"
+        android:orderInCategory="2"
+        />
+</menu>
